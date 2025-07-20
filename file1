@@ -6,4 +6,7 @@ int main() {
     printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
 }
+
 adding the swapping of the numbers
+
+adding the swapping of two numbers programm
