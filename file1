@@ -1,8 +1,8 @@
 int main() {
-    int a = 5, b = 10, temp;
-    temp = a;
-    a = b;
-    b = temp;
+    int a = 5, b = 10;
+    a = a^b;
+    b = b^a;
+    a = b^a;
     printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
 }
